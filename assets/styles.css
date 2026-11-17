@@ -351,10 +351,10 @@ h2.split.lines-in .ln-i{opacity:1;transform:none}
   .foot-top{grid-template-columns:1fr 1fr}
   .foot-brand{grid-column:1/-1}
 }
-@media (max-width:900px){
+@media (max-width:1180px){
   .hh-inner{grid-template-columns:1fr;gap:24px}
-  .status{width:100%;min-width:0}
-  .hh-title{font-size:clamp(3.2rem,1rem + 13.5vw,9rem)}
+  .status{width:min(520px,100%);min-width:0}
+  .hh-title{font-size:clamp(3.2rem,1rem + 13.5vw,11rem)}
 }
 @media (max-width:860px){
   .steps{grid-template-columns:1fr}
